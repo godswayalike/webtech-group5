@@ -493,6 +493,24 @@ h2 {
     font-style: italic;
 }
 
+/* Footer */
+.footer {
+    background-color: var(--primary-light);
+    color: var(--primary);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    position: static;
+}
+.footer a {
+    color: var(--white);
+    margin: 0 10px;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+.footer a:hover {
+    color: var(--primary);
+}
 /* ══════════════════════════════════════
    RESPONSIVE DESIGN
 ══════════════════════════════════════ */
